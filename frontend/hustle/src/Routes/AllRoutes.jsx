@@ -8,6 +8,7 @@ import WorkFromHome from "./WFH"
 import ArticleRead from "./ArticleRead"
 import Employer from "./Employer"
 import SearchedArticles from "./SearchedArticles"
+import PaymentScreen from "../Components/Payment"
 export default function AllRoutes () {
 
     return (
@@ -20,6 +21,7 @@ export default function AllRoutes () {
             <Route path="/employer" element={<Employer/>} />
             <Route path="/career-tips" element={<CareerTips/>}/>
             <Route path="/jobs/:id" element={<ArticleRead />} />
+            <Route path="/payment" element={<PaymentScreen />} />
             <Route path="*" element={<ErrorPage/>}/>
          </Routes>
     )
