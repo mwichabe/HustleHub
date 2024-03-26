@@ -58,7 +58,7 @@ export default function Footer () {
                 <Text>Buy Online</Text>
                 </Grid>
             <Grid>
-                <Text className="Sub-Heading">Monster</Text>
+                <Text className="Sub-Heading">Hustle Hub</Text>
                 <Text>About us</Text>
                 <Text>Contact us</Text>
                 <Text>Career with us</Text>
@@ -75,8 +75,6 @@ export default function Footer () {
                 <Text>Linkedin</Text>
                 <Text>Instagram</Text>
                 <Text>Youtube</Text>
-                <Img src="https://www.monsterindia.com/rio/public/images/android-footer.png" alt="googlePlay" />
-                <Img src="https://www.monsterindia.com/rio/public/images/ios-footer.png" alt="appStore" />
             </Grid>
             <Grid>
                 <Text className="Sub-Heading">Legal</Text>

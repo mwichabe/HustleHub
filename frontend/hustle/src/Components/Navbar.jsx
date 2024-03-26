@@ -69,8 +69,7 @@ export default function Navbar() {
                 </Menu>
                 <Box>
                     <Button  bg="#feeabe" color="#f78520">PREMIUM SERVICES</Button>
-                </Box>
-                <Button variant='ghost'>MORE</Button>
+                </Box> 
             </Grid>
 
             <Grid templateColumns="repeat(2,1fr)" gap={3}>
